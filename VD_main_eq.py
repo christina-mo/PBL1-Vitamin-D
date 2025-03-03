@@ -138,7 +138,7 @@ def find_absorption_percent(input):
 
 #FIGURES
 #Calcitriol concentration vs. calcium absorption
-ct_conc = np.arange(0.01, 0.05, 0.001)
+ct_conc = np.arange(0.4, 1.2, 0.001)
 ca_abs = np.zeros(len(ct_conc))
 ca_abs_pct = np.zeros(len(ct_conc))
 for i in range(len(ct_conc)):
@@ -147,8 +147,8 @@ for i in range(len(ct_conc)):
 
 plt.figure(figsize=(12,8))
 plt.plot(ct_conc, ca_abs_pct)
-plt.xlabel ('Calcitriol Concentration (nM)', fontsize = 22,fontweight='normal')
-plt.ylabel ('Ca Intake Absorbed (%)', fontsize = 22, fontweight='normal')
+plt.xlabel ('Calcitriol Concentration (nM)', fontsize = 26,fontweight='normal')
+plt.ylabel ('Ca Intake Absorbed (%)', fontsize = 26, fontweight='normal')
 plt.title('Effect of Calcitriol Concentration on Calcium Absorption' , fontsize = 26, fontweight='normal')
 plt.rcParams['font.size'] = 20
 plt.show()
