@@ -1,4 +1,5 @@
 #Authors: Katherine Bair, Kay Lyon, Christina Mo
+#Duke University
 #BME 260 PBL #1
 #March 3, 2025
 
