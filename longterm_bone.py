@@ -1,3 +1,8 @@
+#Author: Christina Mo
+#Duke University 
+#BME 260 PBL #1
+#March 3, 2025
+
 from scipy.integrate import odeint
 import numpy as np
 import matplotlib.pyplot as plt
